@@ -18,7 +18,7 @@ public class test5 {
  enum Size{
     SMALL("S"),MEDIUM("M"),LARGE("L"),EXTRA_LARGE("XL");
     private String abbreviation;
-    private Size(String abbreviation){this.abbreviation=abbreviation;}
+    private Size(String abbreviation){this.abbreviation=abbreviation;}//规定size的标准格式
     public String getAbbreviation(){
         return abbreviation;
     }
